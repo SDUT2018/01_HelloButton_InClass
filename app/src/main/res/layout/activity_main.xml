@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/button_decrement"
+            android:onClick="pressedDecrement"
             />
 
         <Button
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/button_reset"
+            android:onClick="pressedReset"
             />
 
         <Button
@@ -32,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/button_increment"
+            android:onClick="pressedIncrement"
             />
     </LinearLayout>
 
